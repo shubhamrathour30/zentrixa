@@ -65,3 +65,5 @@ Zentrixa.apk
 
 android/app/google-services.json
 lib/firebase_options.dart
+
+chat_app/
