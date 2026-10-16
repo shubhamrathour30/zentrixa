@@ -1,0 +1,35 @@
+name: my_app
+description: "Zentrixa - chat and social app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0           # C++ server se baat karne ke liye
+  image_picker: ^1.1.2   # photo / video chunna
+  video_player: ^2.9.2   # Reels ki video chalane ke liye
+  shared_preferences: ^2.3.2   # chuni hui language yaad rakhne ke liye
+  web: ^1.1.0   # YouTube player (web) ke liye
+  youtube_player_iframe: ^5.2.0   # phone (Android/iPhone) par YouTube Shorts / Room movie ka player
+  url_launcher: ^6.3.1   # "Open on YouTube" - YouTube app kholne ke liye
+  webview_flutter: ^4.10.0   # Auto-update shell: app server se Zentrixa kholta hai
+  webview_flutter_android: ^4.3.0   # Android: awaaz autoplay + photo/video upload
+  # Hata diye (ab use nahi hote): contacts_service (purana/discontinued),
+  # permission_handler, web_socket_channel
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/

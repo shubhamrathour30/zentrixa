@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="my_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Zentrixa</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html,body{margin:0;height:100%;background:#F7F2ED}
+    #zx-splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#F7F2ED;font-family:system-ui,sans-serif}
+    #zx-splash b{font-size:34px;color:#FF5733;letter-spacing:.5px}
+    #zx-splash i{margin-top:22px;width:30px;height:30px;border:3px solid #FFD9CF;border-top-color:#FF5733;border-radius:50%;animation:zxs 0.9s linear infinite}
+    @keyframes zxs{to{transform:rotate(360deg)}}
+  </style>
+</head>
+<body>
+  <div id="zx-splash"><b>Zentrixa</b><i></i></div>
+  <script>window.addEventListener("flutter-first-frame",function(){var s=document.getElementById("zx-splash");if(s)s.remove();});</script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

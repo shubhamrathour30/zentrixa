@@ -1,0 +1,4 @@
+# Zentrixa Room ad breaks. Har line: Title | Message | Link | ImageURL   (Link aur ImageURL optional)
+# '#' se shuru line comment hai. File mein koi asli line na ho to ek sample ad dikhta hai.
+# Apne sponsor ki lines yahan daalo, jaise:
+# Chai Point | Ek kadak chai, 20% off sirf Zentrixa users ko | https://example.com | https://example.com/chai.jpg

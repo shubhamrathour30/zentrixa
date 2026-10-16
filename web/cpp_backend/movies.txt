@@ -1,0 +1,3 @@
+# Zentrixa Room ki free movie list. Har line: Title | Info | VideoURL | PosterURL(optional)
+# VideoURL seedha .mp4 link ho. Sirf wahi video daalo jiski aapke paas permission/free licence ho.
+# File mein koi asli line na ho to 4 free Blender movies (Big Buck Bunny, Sintel, Elephants Dream, Tears of Steel) aati hain.
