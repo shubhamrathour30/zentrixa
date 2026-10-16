@@ -4,8 +4,22 @@ A full-stack social and chat app I built from scratch: a **Flutter** client (And
 
 > Status: personal project, actively developed. The server runs on my own machine and is exposed with Tailscale Funnel, so there is no public demo link.
 
-<!-- Add screenshots here: put images in docs/screenshots/ and link them, for example:
-![Home](docs/screenshots/home.png) ![Reels](docs/screenshots/reels.png) ![Chat](docs/screenshots/chat.png) -->
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/reels.jpg" width="200"><br><sub>Reels</sub></td>
+    <td align="center"><img src="docs/screenshots/chat.jpg" width="200"><br><sub>Chats</sub></td>
+    <td align="center"><img src="docs/screenshots/profile.jpg" width="200"><br><sub>Profile</sub></td>
+    <td align="center"><img src="docs/screenshots/ai.jpg" width="200"><br><sub>Zentrixa AI</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/search.jpg" width="200"><br><sub>Search</sub></td>
+    <td align="center"><img src="docs/screenshots/new-post.jpg" width="200"><br><sub>New post</sub></td>
+    <td align="center"><img src="docs/screenshots/room.jpg" width="200"><br><sub>Zentrixa Room</sub></td>
+    <td align="center"><img src="docs/screenshots/settings.jpg" width="200"><br><sub>Settings</sub></td>
+  </tr>
+</table>
 
 ## Features
 
